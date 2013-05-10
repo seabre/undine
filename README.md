@@ -41,6 +41,3 @@ Note: If you join a new chat, you will not get new notifications for that room, 
 
 * Does not keep track of newly joined rooms.
 * Does not keep track of rooms you have left.
-* Occasionally runs into an exception when grabbing username from received message.
-
-
