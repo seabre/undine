@@ -4,7 +4,9 @@
 
 ### Installation
 
-For now, clone the repository. Inside the cloned project run `sudo npm install -g .`
+I haven't published the package yet to npm, so for now, do the following:
+
+`sudo npm install -g git://github.com/seabre/undine.git`
 
 Next, you will need to write a configuration with your Campfire credentials.
 Right now, it doesn't generate this for you at all, so you will have to do it yourself.
