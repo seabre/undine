@@ -29,13 +29,24 @@ Then, put the following in the config.json file you made:
    "token":"YOUR_CAMPFIRE_API_TOKEN_GOES_HERE",
    "account":"YOUR_CAMPFIRE_SUBDOMAIN_GOES_HERE"
 }
-
 ```
 
 ### Usage
 
-After everything is setup, just run `undine`. All campfire chatrooms that you a currently a member of will be polled.
-Note: If you join a new chat, you will not get new notifications for that room, you will need to restart undine.
+After everything is setup, just run:
+
+```
+$ undine start
+```
+
+All campfire chatrooms that you a currently a member of will be polled.
+Note: If you join a new chat, you will not get new notifications for that room, you will need to restart undine,
+which you can do by running:
+
+```
+$ undine stop
+$ undine start
+```
 
 ### Issues
 
