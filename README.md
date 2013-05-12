@@ -36,7 +36,7 @@ Then, put the following in the config.json file you made:
 After everything is setup, just run:
 
 ```
-$ undine start
+$ undine --start
 ```
 
 All campfire chatrooms that you a currently a member of will be polled.
@@ -44,8 +44,14 @@ Note: If you join a new chat, you will not get new notifications for that room, 
 which you can do by running:
 
 ```
-$ undine stop
-$ undine start
+$ undine --stop
+$ undine --start
+```
+
+To see all options run:
+
+```
+$ undine --help
 ```
 
 ### Issues
