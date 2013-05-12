@@ -7,7 +7,7 @@
 There isn't a great way to get chat notifications in Campfire on Linux.
 I've tried most of them. They don't do what I want them to do.
 
-This actually works on Linux, OS X, and Windows. See [this](https://github.com/visionmedia/node-growl) for more details.
+This actually works on Linux, and *should* work on OS X. See [this](https://github.com/visionmedia/node-growl) for more details.
 
 ### Installation
 
