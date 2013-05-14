@@ -20,7 +20,7 @@ I haven't published the package yet to npm, so for now, do the following:
 Run:
 
 ```
-undine --config
+$ undine --config
 ```
 
 Fill in the prompts with your Campfire subdomain and your Campfire API key.
